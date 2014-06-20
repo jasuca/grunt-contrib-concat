@@ -74,7 +74,7 @@ module.exports = function(grunt) {
         } else {
           return true;
         }
-      }).map(function(filepath) {
+      }).map(function(filepath, i) {
         if (grunt.file.isDir(filepath)) {
           return;
         }
